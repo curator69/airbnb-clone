@@ -21,7 +21,7 @@ code {
 .navbar {
   height: 12vh;
   border-bottom: 1px solid rgb(235, 235, 235);
-  padding: 1rem 4rem;
+  padding: 1rem 5rem;
 
   display: flex;
   align-items: center;
@@ -30,8 +30,8 @@ code {
 }
 
 .logo {
-  width: 8rem;
-  height: 2.5rem;
+  width: 6rem;
+  height: 1.8rem;
 }
 
 .nav-menu {
@@ -113,4 +113,78 @@ menu:hover {
 .drop-down-menu-content hr {
   width: 100%;
   margin: 10px 0;
+}
+
+/* Main */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 5rem;
+}
+
+.heading-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading-nav h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-left,
+.btn-right {
+  border: 1px solid rgb(224, 224, 224);
+  padding: 8px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.slider {
+  width: fit-content;
+  display: flex;
+  gap: 1rem;
+  overflow-x: hidden;
+}
+
+.slide {
+  width: 36rem;
+  height: 350px;
+  border-radius: 10px;
+  padding: 1.5rem;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slide a {
+  width: fit-content;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+}
+
+.info {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+}
+
+.info p {
+  font-size: 14px;
+}
+
+.info h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
 }

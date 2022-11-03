@@ -28,12 +28,12 @@ const Navbar = () => {
         {menu && (
           <div className="drop-down-menu">
             <div className="drop-down-menu-content">
-              <a href="#">Sign Up</a>
-              <a href="#">Login In</a>
+              <a href="https://uniacco.com/">Sign Up</a>
+              <a href="https://uniacco.com/">Login In</a>
               <hr />
-              <a href="#">Host your home</a>
-              <a href="#">Host your experience</a>
-              <a href="#">Help</a>
+              <a href="https://uniacco.com/">Host your home</a>
+              <a href="https://uniacco.com/">Host your experience</a>
+              <a href="https://uniacco.com/">Help</a>
             </div>
           </div>
         )}
